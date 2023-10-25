@@ -8,7 +8,7 @@ on:
 jobs:
   ci:
     name: CI
-    uses: silverstripe/gha-ci/.github/workflows/ci.yml@v1
+    uses: lekoala/gha-ci/.github/workflows/ci.yml@patch-1
     with:
       # set phpunit to false to prevent automatic generation of mysql phpunit jobs
       phpunit: false
